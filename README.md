@@ -1,4 +1,36 @@
+
+
+# Flow Builder
+
+This project is an interactive Flow Builder web application built with [Next.js](https://nextjs.org). It allows users to visually create, edit, and manage message flows using a drag-and-drop interface. The builder is designed for scenarios such as chatbot design, automated messaging workflows, or any process that benefits from a node-based visual editor.
+
+## Project Screenshot
+
+![Flow Builder Screenshot](public/flow-builder-screenshot.png)
+
+<sub>_Replace the above image with your own screenshot at `public/flow-builder-screenshot.png`_</sub>
+
+## Features
+
+- **Visual Flow Canvas:** Drag and drop nodes to create message flows.
+- **Customizable Nodes:** Each node can represent a message or action, with editable settings.
+- **Node Panel:** Easily add new nodes from a side panel.
+- **Settings Panel:** Configure properties of selected nodes.
+- **Top Bar:** Access common actions and controls for the flow.
+- **Modern UI:** Built with reusable React components and styled for a clean, intuitive experience.
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Clone the Repository
+
+To get started, first clone the repository:
+
+```bash
+git clone https://github.com/AtulRaghuvanshi73/Flow-Builder
+cd Flow-Builder
+```
 
 ## Getting Started
 
@@ -14,23 +46,5 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
