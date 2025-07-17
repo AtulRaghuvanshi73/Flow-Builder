@@ -30,6 +30,12 @@ To get started, first clone the repository:
 ```bash
 git clone https://github.com/AtulRaghuvanshi73/Flow-Builder
 cd Flow-Builder
+
+npm i 
+#or 
+yarn add
+#or 
+pnpm i 
 ```
 
 ## Getting Started
@@ -42,8 +48,6 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 
