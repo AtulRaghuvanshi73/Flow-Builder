@@ -4,11 +4,9 @@
 
 This project is an interactive Flow Builder web application built with [Next.js](https://nextjs.org). It allows users to visually create, edit, and manage message flows using a drag-and-drop interface. The builder is designed for scenarios such as chatbot design, automated messaging workflows, or any process that benefits from a node-based visual editor.
 
-## Project Screenshot
 
 ![Flow Builder Screenshot](public/flow-builder-screenshot.png)
 
-<sub>_Replace the above image with your own screenshot at `public/flow-builder-screenshot.png`_</sub>
 
 ## Features
 
